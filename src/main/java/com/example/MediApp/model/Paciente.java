@@ -43,7 +43,7 @@ public class Paciente {
     private String correo;
 
     @Column
-    private String Telefono;
+    private String telefono;
 
     @OneToMany(mappedBy = "paciente", cascade = CascadeType.ALL,orphanRemoval = true)
     @JsonManagedReference

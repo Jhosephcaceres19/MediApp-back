@@ -38,7 +38,6 @@ public class Cita {
 
     @ManyToOne
     @JoinColumn(name = "id_medico")
-    @JsonBackReference
     private Medico medico;
 
     @ManyToOne
